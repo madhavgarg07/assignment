@@ -1,0 +1,27 @@
+.green-nav {
+	display: flex;	
+	list-style: none;
+	background: linear-gradient(#88CC88, #55AA55);
+	font-size: 1.1rem;
+	height: 4rem;
+	align-items: center;
+	margin: 0px 0px;
+	padding: 0px 0px;
+}
+
+.contacts {
+	margin-left: auto;
+}
+
+li {
+	padding: 15px;
+}
+
+.about {
+	margin-left: 15px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
