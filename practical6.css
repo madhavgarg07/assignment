@@ -1,0 +1,51 @@
+body {
+    background-color: grey;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box {
+    font-size: 120%;
+    padding: 10px;
+    background-color: white;
+    width: 300px;
+    height: 380px;
+    margin: 10px;
+}
+
+img {
+    padding: 10px;
+    width: 92%;
+    height: 200px
+}
+
+p {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-size: 100%;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: navy;
+}
