@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-8</title>
+    <style>
+        * {
+            margin: 0px;
+        }
+        
+        ul {
+            position: fixed;
+            width: 100%;
+            list-style: none;
+            text-decoration: none;
+            background-color: khaki;
+            margin: auto;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        ul li {
+            font-size: 130%;
+            padding: 10px 20px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: black;
+            display: block;
+            width: 150px;
+            text-align: center;
+        }
+
+        ul li:hover {
+            background-color: orange;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 100px;
+            margin-bottom: 20px;
+        }
+
+        #photos img {
+            border-radius: 50%;
+        }
+
+        #photos {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        #front-image {
+            margin: 20px 5px;
+            margin-top: 50px;
+            width: 99%;           
+        }
+
+        #about {
+            margin-top: 150px;
+        }
+
+        #about #left {
+            width: 50%;
+            font-size: 120%;
+            background-color: lightsteelblue;
+            padding: 5px;
+            float: left;
+            margin: 0px;
+            height: 550px;
+        }
+
+        #about #right {
+            height: 550px;
+        }
+
+        #about img {
+            float: right;
+            border-radius: 0;
+            width: 48%;
+            height: 183px;
+            margin-bottom: 5px;
+        }
+
+        #container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        #container .box {
+            font-size: 120%;
+            padding: 10px;
+            background-color: navajowhite;
+            width: 300px;
+            height: 380px;
+            margin: 10px;
+        }
+
+        #container .box img {
+            padding: 10px;
+            width: 92%;
+            height: 200px
+        }
+
+        #container .box p {
+            margin: 0px;
+            margin-bottom: 10px;
+        }
+
+        #container .box a {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            background-color: red;
+            color: white;
+            padding: 10px;
+            font-size: 100%;
+            border-radius: 10px;
+        }
+
+        #container .box a:hover {
+            background-color: navy;
+        }
+
+        #contact {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: lightblue;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- adding navbar -->
+    <navbar>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="#team">TEAM</a></li>
+            <li><a href="#tech">TECHNOLOGIES</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </navbar>
+
+    <!-- front image of page -->
+    <a name="top"><img id="front-image" src="img.jpg"></a>
+
+    <!-- team details -->
+    <a name="team"><h1>Team Members</h1></a>
+    <div id="photos">
+        <img src="1.png">
+        <img src="2.png">
+        <img src="3.png">
+        <img src="4.png">
+    </div>
+
+    <!-- about us section -->
+    <div id="about">
+        <a name="about"><h1>About us</h1></a>
+        <div id="left">
+            <p class="para" style="font-size: 130%;">About Projects</p>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consequuntur sapiente explicabo neque quos ab reiciendis earum quaerat placeat beatae dignissimos provident eius laborum, quo saepe odit natus est deleniti eligendi optio nemo commodi laudantium. Sed accusantium porro inventore corrupti perferendis saepe! Harum, eveniet. Aperiam, eligendi. Repellendus autem labore commodi quo magni nesciunt, dolor sint, dolore consequatur quia error natus vero debitis! Recusandae culpa temporibus voluptatem, quod inventore fuga cupiditate maiores, nulla error autem eveniet? Quibusdam delectus corporis, molestiae porro, unde dolores recusandae natus veniam reiciendis illo facere tempore! Ea esse consequatur officia incidunt, eum commodi placeat eligendi laudantium asperiores voluptates impedit a animi ad, dicta sint odio. Dicta architecto cupiditate repellendus porro eveniet nobis vitae rem. Harum excepturi velit repudiandae vitae, recusandae totam eos nulla blanditiis nesciunt molestiae atque dicta, perferendis provident alias accusantium dolor nisi assumenda, incidunt minus adipisci nihil ipsum eaque. In enim, quis sit modi cum praesentium esse doloribus totam ducimus nesciunt nemo labore eligendi corrupti, quos consectetur, quae sequi ut officia vero! Aperiam, incidunt illo ipsam nulla quis magni distinctio mollitia dolor amet corporis ullam quisquam omnis voluptate? Corporis soluta tenetur porro sed natus iste accusamus et dicta, iure, aspernatur voluptatum optio repellendus similique nesciunt laboriosam ea nihil eaque numquam molestias aliquam odio eveniet odit. Perferendis nulla rem, quae assumenda commodi autem veritatis voluptatibus minima ullam adipisci quidem, illo nobis ex quas ipsa et. Voluptatibus quisquam, architecto animi eaque exercitationem, facilis adipisci soluta minima ipsa quae dignissimos iure.</p>
+        </div>
+        <div id="right">
+            <img src="p1.jpg">
+            <img src="p2.jpeg">
+            <img src="p3.jpg">
+        </div>
+    </div>
+
+    <!-- technology section -->
+    <a name="tech"><h1>Technologies Used</h1></a>
+    <div id="container">
+        <!-- HTML box -->
+        <div class="box">
+            <img src="html.png" alt="HTML image">
+            <p>HTML stands for Hyper Text Markup Language. It is used to design web pages using markup language ...</p>
+            <a href="introtohtml.html" target="_blank">Read more</a>
+        </div>
+        <!-- CSS box -->
+        <div class="box">
+            <img src="css.png" alt="CSS image">
+            <p>Cascading Style Sheets, fondly referred to as CSS, is a simply designed language intended ... </p>
+            <a href="introtocss.html" target="_blank">Read more</a>
+        </div>
+        <!-- Javascript box -->
+        <div class="box">
+            <img src="js.jfif" alt="Javascript image">
+            <p>JavaScript is a lightweight, cross-platform and interpreted scripting language. It is well-known for ...</p>
+            <a href="introtojs.html" target="_blank">Read more</a>
+        </div>
+        <!-- Bootstrap box -->
+        <div class="box">
+            <img src="bs.png" alt="Bootstrap image">
+            <p>Bootstrap is a free and open-source tool collection for creating responsive websites and web applications ...</p>
+            <a href="introtobs.html" target="_blank">Read more</a>
+        </div>
+    </div>
+
+    <!-- contact section -->
+    <a name="contact"><h1>Contact</h1>
+    <div id="contact">
+        <p style="padding-bottom: 10px;">Website Template for Practical-8</p>
+        <a href="#top"><p>Back to top</p></a>
+    </div></a>
+</body>
+</html>
