@@ -3,149 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practical-8</title>
-    <style>
-        * {
-            margin: 0px;
-        }
-        
-        ul {
-            position: fixed;
-            width: 100%;
-            list-style: none;
-            text-decoration: none;
-            background-color: khaki;
-            margin: auto;
-            display: flex;
-            justify-content: space-evenly;
-        }
-
-        ul li {
-            font-size: 130%;
-            padding: 10px 20px;
-        }
-
-        ul li a {
-            text-decoration: none;
-            color: black;
-            display: block;
-            width: 150px;
-            text-align: center;
-        }
-
-        ul li:hover {
-            background-color: orange;
-        }
-
-        h1 {
-            text-align: center;
-            margin-top: 100px;
-            margin-bottom: 20px;
-        }
-
-        #photos img {
-            border-radius: 50%;
-        }
-
-        #photos {
-            display: flex;
-            justify-content: space-evenly;
-        }
-
-        #front-image {
-            margin: 20px 5px;
-            margin-top: 50px;
-            width: 99%;           
-        }
-
-        #about {
-            margin-top: 150px;
-        }
-
-        #about #left {
-            width: 50%;
-            font-size: 120%;
-            background-color: lightsteelblue;
-            padding: 5px;
-            float: left;
-            margin: 0px;
-            height: 550px;
-        }
-
-        #about #right {
-            height: 550px;
-        }
-
-        #about img {
-            float: right;
-            border-radius: 0;
-            width: 48%;
-            height: 183px;
-            margin-bottom: 5px;
-        }
-
-        #container {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
-
-        #container .box {
-            font-size: 120%;
-            padding: 10px;
-            background-color: navajowhite;
-            width: 300px;
-            height: 380px;
-            margin: 10px;
-        }
-
-        #container .box img {
-            padding: 10px;
-            width: 92%;
-            height: 200px
-        }
-
-        #container .box p {
-            margin: 0px;
-            margin-bottom: 10px;
-        }
-
-        #container .box a {
-            display: block;
-            text-align: center;
-            text-decoration: none;
-            background-color: red;
-            color: white;
-            padding: 10px;
-            font-size: 100%;
-            border-radius: 10px;
-        }
-
-        #container .box a:hover {
-            background-color: navy;
-        }
-
-        #contact {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            background-color: lightblue;
-            padding-top: 20px;
-            padding-bottom: 20px;
-        }
-    </style>
+    <title>Practical-9</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="practical9.css">
 </head>
 <body>
-    <navbar>
+    <div id="navbar">
+        <input type="checkbox" id="check">
+        <label for="check" class="show-btn">
+            <i class="fa fa-bars"></i>
+        </label>
         <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="#about">ABOUT US</a></li>
-            <li><a href="#team">TEAM</a></li>
-            <li><a href="#tech">TECHNOLOGIES</a></li>
-            <li><a href="#contact">CONTACT</a></li>
+            <a href="index.html" class="first-element"><li>HOME</li></a>
+            <a href="#about"><li>ABOUT US</li></a>
+            <a href="#team"><li>TEAM</li></a>
+            <a href="#tech"><li>TECHNOLOGIES</li></a>
+            <a href="#contact"><li>CONTACT</li></a>
+            <label for="check" class="hide-btn">
+                <i class="fa fa-window-close"></i>
+            </label>
         </ul>
-    </navbar>
+    </div>
 
     <a name="top"><img id="front-image" src="img.jpg"></a>
 
@@ -179,12 +57,12 @@
         </div>
         <div class="box">
             <img src="css.png" alt="CSS image">
-            <p>Cascading Style Sheets, fondly referred to as CSS, is a simply designed language intended ... </p>
+            <p>Cascading Style Sheets, fondly referred to as CSS, is a simply designed language intended to simplify... </p>
             <a href="introtocss.html" target="_blank">Read more</a>
         </div>
         <div class="box">
             <img src="js.jfif" alt="Javascript image">
-            <p>JavaScript is a lightweight, cross-platform and interpreted scripting language. It is well-known for ...</p>
+            <p>JavaScript is a lightweight, cross-platform and interpreted scripting language. It is well-known for the...</p>
             <a href="introtojs.html" target="_blank">Read more</a>
         </div>
         <div class="box">
@@ -196,7 +74,7 @@
 
     <a name="contact"><h1>Contact</h1>
     <div id="contact">
-        <p style="padding-bottom: 10px;">Website Template for Practical-8</p>
+        <p style="padding-bottom: 10px;">Website Template with responsiveness for Practical-9</p>
         <a href="#top"><p>Back to top</p></a>
     </div></a>
 </body>

@@ -1,0 +1,567 @@
+/* breakpoint-1 */
+@media (min-width: 1201px) {
+    /* universal tag */
+    * {
+        margin: 0px;
+    }
+
+    /* navbar section */
+    ul {
+        padding: 0px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        list-style: none;
+        background-color: khaki;
+        display: flex;
+        justify-content: space-around;
+    }
+    ul a {
+        text-decoration: none;
+        color: black;
+        display: block;
+        width: 200px;
+        text-align: center;
+    }
+    ul li {
+        font-size: 130%;
+        padding: 10px 20px;
+    }
+    ul a li:hover {
+        background-color: orange;
+    }
+    .show-btn, .hide-btn {
+        font-size: 30px;
+        line-height: 70px;
+        display: none;
+    }
+    .show-btn {
+        float: right;
+    }
+    #check {
+        position: absolute;
+        visibility: hidden;
+        z-index: -10;
+    }
+
+    /* team members section */
+    h1 {
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+    #photos img {
+        border-radius: 50%;
+    }
+    #photos {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    /* front image section */
+    #front-image {
+        margin: 20px 5px;
+        margin-top: 50px;
+        width: 99%;           
+    }
+
+    /* about us section */
+    #about {
+        margin-top: 150px;
+    }
+    /* left section(about project) */
+    #about #left {
+        width: 50%;
+        font-size: 120%;
+        background-color: lightsteelblue;
+        padding: 5px;
+        float: left;
+        margin: 0px;
+        height: 620px;
+    }
+    /* right section */
+    #about #right {
+        height: 620px;
+    }
+    #about img {
+        float: right;
+        border-radius: 0;
+        width: 48%;
+        height: 207px;
+        margin-bottom: 5px;
+    }
+
+    /* technology used section */
+    #container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #container .box {
+        font-size: 120%;
+        padding: 10px;
+        background-color: navajowhite;
+        width: 260px;
+        height: 380px;
+        margin: 10px;
+    }
+
+    #container .box img {
+        padding: 10px;
+        width: 92%;
+        height: 200px
+    }
+
+    #container .box p {
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+
+    #container .box a {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        background-color: red;
+        color: white;
+        padding: 10px;
+        font-size: 100%;
+        border-radius: 10px;
+    }
+
+    #container .box a:hover {
+        background-color: navy;
+    }
+
+    #contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: lightblue;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+/* breakpoint-2 */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    /* universal tag */
+    * {
+        margin: 0px;
+    }
+
+    /* navbar section */
+    ul {
+        padding: 0px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        list-style: none;
+        background-color: khaki;
+        display: flex;
+        justify-content: space-around;
+    }
+    ul a {
+        text-decoration: none;
+        color: black;
+        display: block;
+        width: 200px;
+        text-align: center;
+    }
+    ul li {
+        font-size: 130%;
+        padding: 10px 20px;
+    }
+    ul a li:hover {
+        background-color: orange;
+    }
+    .show-btn, .hide-btn {
+        font-size: 30px;
+        line-height: 70px;
+        display: none;
+    }
+    .show-btn {
+        float: right;
+    }
+    #check {
+        position: absolute;
+        visibility: hidden;
+        z-index: -10;
+    }
+
+    /* front-image section */
+    #front-image {
+        margin: 20px 5px;
+        margin-top: 50px;
+        width: 99%;           
+    }
+
+    /* team members section */
+    h1 {
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+    #photos img {
+        border-radius: 50%;
+    }
+    #photos {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    /* about us section */
+    #about {
+        margin-top: 150px;
+    }
+    /* left section(about project) */
+    #about #left {
+        width: 50%;
+        font-size: 120%;
+        background-color: lightsteelblue;
+        padding: 10px;
+        float: left;
+        margin: 0px;
+        height: 710px;
+    }
+    /* right section */
+    #about #right {
+        height: 710px;
+    }
+    #about img {
+        float: right;
+        border-radius: 0;
+        width: 47%;
+        height: 240px;
+        margin-bottom: 5px;
+    }
+
+    /* technology used section */
+    #container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #container .box {
+        font-size: 130%;
+        padding: 10px;
+        background-color: navajowhite;
+        width: 300px;
+        height: 380px;
+        margin: 10px;
+    }
+    #container .box img {
+        padding: 10px;
+        width: 92%;
+        height: 200px
+    }
+    #container .box p {
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    #container .box a {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        background-color: red;
+        color: white;
+        padding: 10px;
+        font-size: 100%;
+        border-radius: 10px;
+    }
+    #container .box a:hover {
+        background-color: navy;
+    }
+    #contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: lightblue;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+/* breakpoint-3 */
+@media (min-width: 791px) and (max-width: 1024px) {
+    /* universal tag */
+    * {
+        margin: 0px;
+    }
+
+    /* navbar section */
+    ul {
+        padding: 0px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        list-style: none;
+        background-color: khaki;
+        display: flex;
+        justify-content: space-around;
+    }
+    ul a {
+        text-decoration: none;
+        color: black;
+        display: block;
+        width: 200px;
+        text-align: center;
+    }
+    ul li {
+        font-size: 130%;
+        padding: 10px 20px;
+    }
+    ul a li:hover {
+        background-color: orange;
+    }
+    .show-btn, .hide-btn {
+        font-size: 30px;
+        line-height: 70px;
+        display: none;
+    }
+    .show-btn {
+        float: right;
+    }
+    #check {
+        position: absolute;
+        visibility: hidden;
+        z-index: -10;
+    }
+
+    /* front-image section */
+    #front-image {
+        margin: 20px 5px;
+        margin-top: 50px;
+        width: 99%;           
+    }
+
+    /* team members section */
+    h1 {
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+    #photos img {
+        border-radius: 50%;
+        margin: 5px;
+    }
+    #photos {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    /* about us section */
+    #about {
+        margin-top: 150px;
+    }
+    /* left section(about project) */
+    #about #left {
+        font-size: 120%;
+        background-color: lightsteelblue;
+        padding: 10px;
+        margin: 0px;
+        margin-bottom: 5px;
+    }
+    /* right section */
+    #about #right img {
+        width: 100%;
+        border-radius: 0;
+        height: 190px;
+        margin-bottom: 5px;
+    }
+
+    /* technology used section */
+    #container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #container .box {
+        font-size: 130%;
+        padding: 10px;
+        background-color: navajowhite;
+        width: 350px;
+        height: 380px;
+        margin: 10px;
+    }
+    #container .box img {
+        padding: 10px;
+        width: 92%;
+        height: 200px
+    }
+    #container .box p {
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    #container .box a {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        background-color: red;
+        color: white;
+        padding: 10px;
+        font-size: 100%;
+        border-radius: 10px;
+    }
+    #container .box a:hover {
+        background-color: navy;
+    }
+    #contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: lightblue;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+/* breakpoint-3 */
+@media (max-width: 790px) {
+    /* universal tag */
+    * {
+        margin: 0px;
+    }
+
+    /* navbar section */
+    #navbar .show-btn, #navbar .hide-btn {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #navbar .show-btn {
+        float: right;
+        margin-right: 10px;
+    }
+    #navbar #check {
+        position: absolute;
+        visibility: hidden;
+        z-index: -10;
+    }
+    #navbar ul {
+        position: fixed;
+        top: 0;
+        font-size: 140%;
+        list-style: none;
+        /* it will add a slider effect */
+        right: -120%;
+        width: 100%;
+        height: 370px;
+        line-height: normal;
+        text-align: center;
+        background-color: khaki;
+        display: flex;
+        flex-direction: column;
+    }
+    #navbar ul li {
+        padding: 20px 0px;
+    }
+    #navbar ul a {
+        text-decoration: none;
+        color: lightseagreen;
+    }
+    #check:checked ~ ul {
+        right: 0;
+    }
+    #navbar .first-element {
+        margin-top: 40px;
+    }
+    .hide-btn {
+        position: absolute;
+        right: 10px;
+        top: 5px;
+    }
+
+    /* front-image section */
+    #front-image {
+        margin: 5px 5px;
+        /* margin-top: 50px; */
+        width: 99%;           
+    }
+
+    /* team members section */
+    h1 {
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+    #photos img {
+        border-radius: 50%;
+        margin: 5px;
+    }
+    #photos {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    /* about us section */
+    #about {
+        margin-top: 150px;
+    }
+    /* left section(about project) */
+    #about #left {
+        font-size: 120%;
+        background-color: lightsteelblue;
+        padding: 10px;
+        margin: 0px;
+        margin-bottom: 5px;
+    }
+    /* right section */
+    #about #right img {
+        width: 100%;
+        /* float: right; */
+        border-radius: 0;
+        /* width: 47%; */
+        height: 170px;
+        margin-bottom: 5px;
+    }
+
+    /* technology used section */
+    #container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #container .box {
+        font-size: 130%;
+        padding: 10px;
+        background-color: navajowhite;
+        width: 300px;
+        height: 380px;
+        margin: 10px;
+    }
+    #container .box img {
+        padding: 10px;
+        width: 92%;
+        height: 200px
+    }
+    #container .box p {
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    #container .box a {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        background-color: red;
+        color: white;
+        padding: 10px;
+        font-size: 100%;
+        border-radius: 10px;
+    }
+    #container .box a:hover {
+        background-color: navy;
+    }
+    #contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: lightblue;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
