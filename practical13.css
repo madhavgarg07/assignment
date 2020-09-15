@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* main heading */
+h1 {
+    text-align: center;
+    color: royalblue;
+    margin-top: 20px;
+    font-size: 300%;
+}
+
+h2 {
+    color: white;
+}
+
+#main-content {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: #393b44;
+    color: #8d93ab;
+    padding: 20px;
+}
+#main-content .upper {
+    display: flex;
+    justify-content: space-around;
+}
+#main-content .upper .about {
+    width: 400px;
+}
+#main-content .upper ul {
+    list-style: none;
+    line-height: 25px;
+    margin-left: 10px;
+}
+#main-content .upper ul a {
+    text-decoration: none;
+    color: #8d93ab;
+}
+#main-content .upper ul a:hover {
+    text-decoration: underline;
+    color: #e11d74;
+}
+#main-content .upper .contact i {
+    margin-right: 10px;
+}
+
+#main-content  hr {
+    margin-top: 30px;
+    height: 2px;
+    background-color: rgba(126, 126, 126, 0.3);
+    border: none;
+}
+
+#main-content #second-p {
+    text-align: center;
+    font-size: 120%;
+    margin-top: 30px;
+}
+#main-content #second-p a {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 10px; 
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+#main-content .icons {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#main-content .icons i {
+    font-size: 150%;
+    padding: 15px;
+    background-color: #393b44;
+    border-radius: 20%;
+    color: gray;
+    text-align: center;
+}
+#main-content .icons .fa-facebook:hover {
+    background-color: #3b5999;
+    color: white;
+}
+#main-content .icons .fa-twitter:hover {
+    background-color: #00acee;
+    color: white;
+}
+#main-content .icons .fa-google:hover {
+    background-color: #d34836;
+    color: white;
+}
+#main-content .icons .fa-linkedin:hover {
+    background-color: #0e76a8;
+    color: white;
+}
+
+.base {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    height: 70px;
+    line-height: 70px;
+    display: flex;
+    justify-content: center;
+    color: #8d93ab;
+}
+.base a {
+    text-decoration: none;
+    color: #8d93ab;
+}
+.base a:hover {
+    color: darkorange;
+    text-decoration: underline;
+}
